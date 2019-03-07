@@ -52,6 +52,22 @@ gsettings set org.gnome.desktop.input-sources xkb-options "['caps:swapescape']"
 
 ## Themes
 
+### Gnome Shell
+
+> Don't forget to enable user themes in tweaks
+
+#### Flat Theme
+
+### Wallpaper
+
+First, move your wallpaper image to the home directory with name `.wallpaper.jpg`
+
+Then set it in gsettings:
+
+```bash
+gsettings set org.gnome.desktop.background picture-uri "file:///home/<your-user>/.wallpaper.jpg"
+```
+
 ### Terminal
 
 ```bash
@@ -60,3 +76,9 @@ git clone https://github.com/GalaticStryder/gnome-terminal-colors-dracula
 cd gnome-terminal-colors-dracula
 ./install.sh  # Dircolors setup is not recommended
 ```
+
+## Extenstions
+
+For extensions installation I recommend using Chrome with Gnome Shell Integration installed.
+
+### Dash to Panel
