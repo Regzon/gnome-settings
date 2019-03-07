@@ -18,6 +18,14 @@ Can be installed on Debian-based systems with:
 sudo apt install gnome-tweak-tool
 ```
 
+## Keyboard layout
+
+To add russian language use the following command:
+
+```bash
+gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('xkb', 'ru')]"
+```
+
 ## Keybindings
 
 > This commands assume that you didn't add any keybindings in Gnome before.
